@@ -1,0 +1,117 @@
+In file included from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/esp_common/include/esp_err.h:18[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/driver/include/driver/i2c.h:23[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/include/pca9685_library/pca9685.h:14[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/src/pca9685.c:10[m[K:
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/newlib/platform_include/assert.h:24:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+ #[01;35m[Kinclude_next[m[K <assert.h>
+  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/freertos/include/freertos/portable.h:89[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/freertos/include/freertos/FreeRTOS.h:107[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/driver/include/driver/i2c.h:25[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/include/pca9685_library/pca9685.h:14[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/src/pca9685.c:10[m[K:
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/cpu.h:[m[K In function '[01m[Kcpu_configure_region_protection[m[K':
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/cpu.h:77:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kunsigned int[m[K' [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; i [01;35m[K<[m[K sizeof(pages_to_protect)/sizeof(pages_to_protect[0]); ++i) {
+                       [01;35m[K^[m[K
+In file included from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/freertos/include/freertos/task.h:80[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/driver/include/driver/i2c.h:28[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/include/pca9685_library/pca9685.h:14[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/src/pca9685.c:10[m[K:
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/freertos/include/freertos/list.h:[m[K At top level:
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/freertos/include/freertos/list.h:194:1:[m[K [01;35m[Kwarning: [m[KISO C99 does not support '[01m[K_Static_assert[m[K' [[01;35m[K-Wpedantic[m[K]
+ [01;35m[K_Static_assert[m[K(sizeof(StaticListItem_t) == sizeof(ListItem_t), "StaticListItem_t != ListItem_t");
+ [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/freertos/include/freertos/list.h:207:1:[m[K [01;35m[Kwarning: [m[KISO C99 does not support '[01m[K_Static_assert[m[K' [[01;35m[K-Wpedantic[m[K]
+ [01;35m[K_Static_assert[m[K(sizeof(StaticMiniListItem_t) == sizeof(MiniListItem_t), "StaticMiniListItem_t != MiniListItem_t");
+ [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/freertos/include/freertos/list.h:224:1:[m[K [01;35m[Kwarning: [m[KISO C99 does not support '[01m[K_Static_assert[m[K' [[01;35m[K-Wpedantic[m[K]
+ [01;35m[K_Static_assert[m[K(sizeof(StaticList_t) == sizeof(List_t), "StaticList_t != List_t");
+ [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/include/soc/gpio_periph.h:18[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/driver/include/driver/gpio.h:22[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/driver/include/driver/i2c.h:31[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/include/pca9685_library/pca9685.h:14[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/src/pca9685.c:10[m[K:
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:32:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:39:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:46:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:53:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:63:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:70:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:77:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+In file included from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/include/soc/gpio_periph.h:18[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/driver/include/driver/gpio.h:22[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/driver/include/driver/i2c.h:31[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/include/pca9685_library/pca9685.h:14[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/src/pca9685.c:10[m[K:
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:84:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:92:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:102:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:109:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:116:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:129:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:136:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:143:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:150:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:157:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:170:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:178:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:187:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:196:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:206:10:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+         }[01;35m[K;[m[K
+          [01;35m[K^[m[K
+In file included from [01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/driver/include/driver/i2c.h:32[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/include/pca9685_library/pca9685.h:14[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/src/pca9685.c:10[m[K:
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/soc/include/hal/i2c_types.h:91:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+     }[01;35m[K;[m[K
+      [01;35m[K^[m[K
+In file included from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/include/pca9685_library/pca9685.h:17[m[K,
+                 from [01m[K/home/max/microros_ws4/firmware/mcu_ws/pca9685_library/src/pca9685.c:10[m[K:
+[01m[K/home/max/microros_ws4/firmware/toolchain/esp-idf/components/newlib/platform_include/errno.h:18:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+ #[01;35m[Kinclude_next[m[K "errno.h"
+  [01;35m[K^~~~~~~~~~~~[m[K

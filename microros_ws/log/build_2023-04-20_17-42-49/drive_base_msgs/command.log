@@ -1,0 +1,6 @@
+Invoking command in '/home/max/microros_ws4/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/max/microros_ws4/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/max/microros_ws4/install/drive_base_msgs
+Invoked command in '/home/max/microros_ws4/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/max/microros_ws4/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/max/microros_ws4/install/drive_base_msgs
+Invoking command in '/home/max/microros_ws4/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/max/microros_ws4/build/drive_base_msgs -- -j4 -l4
+Invoked command in '/home/max/microros_ws4/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/max/microros_ws4/build/drive_base_msgs -- -j4 -l4
+Invoking command in '/home/max/microros_ws4/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/max/microros_ws4/build/drive_base_msgs
+Invoked command in '/home/max/microros_ws4/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/max/microros_ws4/build/drive_base_msgs

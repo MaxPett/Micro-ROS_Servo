@@ -1,0 +1,54 @@
+[0.017s] Invoking command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /home/max/PycharmProjects/my_ros2_ws/servo_message -DCMAKE_INSTALL_PREFIX=/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message
+[0.039s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.232s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.310s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.315s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.650s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.651s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.651s]   servo_message --arguments-file
+[0.651s]   /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter__arguments__servo_message.json
+[0.651s]   --output-dir
+[0.651s]   /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter/servo_message
+[0.651s]   --output-file
+[0.651s]   /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter/servo_message.idls)
+[0.651s]   returned error code 1:
+[0.651s] 
+[0.652s]   Error processing 'int32 ServoNumber' of 'servo_message/ServoMessage':
+[0.652s]   ''ServoNumber' is an invalid field name.  It should have the pattern
+[0.652s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.652s] 
+[0.652s]   Traceback (most recent call last):
+[0.652s] 
+[0.652s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.652s]       return _run_code(code, main_globals, None,
+[0.653s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.653s]       exec(code, run_globals)
+[0.653s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.653s]       sys.exit(main())
+[0.653s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.653s]       abs_idl_file = convert_to_idl(
+[0.654s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.654s]       return convert_msg_to_idl(
+[0.654s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.654s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.654s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[0.654s]       fields.append(Field(
+[0.654s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[0.654s]       raise NameError(
+[0.654s] 
+[0.655s]   NameError: 'ServoNumber' is an invalid field name.  It should have the
+[0.655s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.655s] 
+[0.655s] Call Stack (most recent call first):
+[0.655s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.655s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[0.655s] 
+[0.655s] 
+[0.655s] -- Configuring incomplete, errors occurred!
+[0.656s] See also "/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/CMakeFiles/CMakeOutput.log".
+[0.664s] Invoked command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message' returned '1': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /home/max/PycharmProjects/my_ros2_ws/servo_message -DCMAKE_INSTALL_PREFIX=/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message

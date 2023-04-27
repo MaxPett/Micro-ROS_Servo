@@ -1,0 +1,40 @@
+[0.924s] Invoking command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_cpplint': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed
+[1.129s] running egg_info
+[1.130s] creating ../../../build/ament_cpplint/ament_cpplint.egg-info
+[1.132s] writing ../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+[1.132s] writing dependency_links to ../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+[1.132s] writing entry points to ../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+[1.132s] writing requirements to ../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+[1.132s] writing top-level names to ../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+[1.134s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.170s] reading manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.171s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.171s] running build
+[1.171s] running build_py
+[1.172s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build
+[1.172s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build/lib
+[1.172s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.172s] copying ament_cpplint/cpplint.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.172s] copying ament_cpplint/main.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.172s] copying ament_cpplint/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.172s] running install
+[1.178s] running install_lib
+[1.178s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[1.178s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[1.178s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[1.178s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[1.178s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-38.pyc
+[1.202s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/main.py to main.cpython-38.pyc
+[1.205s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/__init__.py to __init__.cpython-38.pyc
+[1.205s] running install_data
+[1.207s] copying package.xml -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/share/ament_cpplint
+[1.207s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/share/ament_index
+[1.207s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index
+[1.207s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[1.208s] copying resource/ament_cpplint -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[1.208s] running install_egg_info
+[1.210s] Copying ../../../build/ament_cpplint/ament_cpplint.egg-info to /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint-0.9.8-py3.8.egg-info
+[1.211s] running install_scripts
+[1.232s] Installing ament_cpplint script to /home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/bin
+[1.237s] writing list of installed files to '/home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/install.log'
+[1.323s] Invoked command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed

@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/max/microros_ws4/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/max/microros_ws4/install/micro_ros_msgs:/home/max/microros_ws4/install/micro_ros_setup:/home/max/microros_ws4/install/micro_ros_agent:/home/max/microros_ws4/install/drive_base_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/max/microros_ws4/install/micro_ros_msgs/lib:/home/max/microros_ws4/install/micro_ros_agent/lib:/home/max/microros_ws4/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/max/microros_ws4/build/micro_ros_agent -- -j4 -l4
+[0.096s] [100%] Built target micro_ros_agent
+[0.110s] Invoked command in '/home/max/microros_ws4/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/max/microros_ws4/install/micro_ros_msgs:/home/max/microros_ws4/install/micro_ros_setup:/home/max/microros_ws4/install/micro_ros_agent:/home/max/microros_ws4/install/drive_base_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/max/microros_ws4/install/micro_ros_msgs/lib:/home/max/microros_ws4/install/micro_ros_agent/lib:/home/max/microros_ws4/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/max/microros_ws4/build/micro_ros_agent -- -j4 -l4
+[0.166s] Invoking command in '/home/max/microros_ws4/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/max/microros_ws4/install/micro_ros_msgs:/home/max/microros_ws4/install/micro_ros_setup:/home/max/microros_ws4/install/micro_ros_agent:/home/max/microros_ws4/install/drive_base_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/max/microros_ws4/install/micro_ros_msgs/lib:/home/max/microros_ws4/install/micro_ros_agent/lib:/home/max/microros_ws4/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/max/microros_ws4/build/micro_ros_agent
+[0.178s] -- Install configuration: ""
+[0.178s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[0.181s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[0.181s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[0.184s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[0.184s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[0.184s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[0.184s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[0.184s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[0.184s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/launch
+[0.185s] -- Up-to-date: /home/max/microros_ws4/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[0.185s] Invoked command in '/home/max/microros_ws4/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/max/microros_ws4/install/micro_ros_msgs:/home/max/microros_ws4/install/micro_ros_setup:/home/max/microros_ws4/install/micro_ros_agent:/home/max/microros_ws4/install/drive_base_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/max/microros_ws4/install/micro_ros_msgs/lib:/home/max/microros_ws4/install/micro_ros_agent/lib:/home/max/microros_ws4/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/max/microros_ws4/build/micro_ros_agent

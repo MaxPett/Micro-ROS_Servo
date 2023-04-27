@@ -1,0 +1,6 @@
+{
+  "package_name": "servo_message",
+  "non_idl_tuples": [
+    "/home/max/PycharmProjects/my_ros2_ws/servo_message:msg/ServoMessage.msg"
+  ]
+}

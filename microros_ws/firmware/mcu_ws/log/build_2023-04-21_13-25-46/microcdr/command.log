@@ -1,0 +1,4 @@
+Invoking command in '/home/max/microros_ws4/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/max/microros_ws4/firmware/mcu_ws/build/microcdr -- -j4 -l4
+Invoked command in '/home/max/microros_ws4/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/max/microros_ws4/firmware/mcu_ws/build/microcdr -- -j4 -l4
+Invoking command in '/home/max/microros_ws4/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/max/microros_ws4/firmware/mcu_ws/build/microcdr
+Invoked command in '/home/max/microros_ws4/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/max/microros_ws4/firmware/mcu_ws/build/microcdr

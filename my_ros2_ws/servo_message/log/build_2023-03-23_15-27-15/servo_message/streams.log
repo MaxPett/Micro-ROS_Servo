@@ -1,0 +1,199 @@
+[0.021s] Invoking command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message -- -j4 -l4
+[0.058s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.088s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.271s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.352s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.602s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.693s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.723s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.723s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.749s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.749s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.749s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.767s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.787s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.788s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_c>;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_c;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_cpp;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_typesupport_fastrtps_c;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_cpp>;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_py
+[0.788s] -- Configured cppcheck exclude dirs and/or files: 
+[0.809s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.809s] -- Configured cpplint exclude dirs and/or files: 
+[0.812s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.818s] -- Added test 'lint_cmake' to check CMake code style
+[0.821s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.841s] -- Added test 'uncrustify' to check C / C++ code style
+[0.841s] -- Configured uncrustify additional arguments: 
+[0.843s] -- Added test 'xmllint' to check XML markup files
+[0.848s] -- Configuring done
+[0.874s] -- Generating done
+[0.877s] -- Build files have been written to: /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message
+[0.912s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.922s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.142s] [35m[1mScanning dependencies of target servo_message__rosidl_generator_c[0m
+[1.153s] [  9%] [32mBuilding C object CMakeFiles/servo_message__rosidl_generator_c.dir/rosidl_generator_c/servo_message/msg/detail/servo_message__functions.c.o[0m
+[1.154s] [  9%] Built target servo_message__cpp
+[1.164s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.164s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.170s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.215s] [ 22%] [32m[1mLinking C shared library libservo_message__rosidl_generator_c.so[0m
+[1.258s] [ 22%] Built target servo_message__rosidl_generator_c
+[1.271s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.405s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_cpp[0m
+[1.417s] [ 29%] [32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_message/msg/servo_message__type_support.cpp.o[0m
+[1.428s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_fastrtps_cpp[0m
+[1.444s] [ 32%] [32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_message/msg/detail/dds_fastrtps/servo_message__type_support.cpp.o[0m
+[1.457s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_introspection_cpp[0m
+[1.471s] [ 35%] [32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_message/msg/detail/servo_message__type_support.cpp.o[0m
+[1.546s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_introspection_c[0m
+[1.560s] [ 38%] [32mBuilding C object CMakeFiles/servo_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_message/msg/detail/servo_message__type_support.c.o[0m
+[1.608s] [ 41%] [32m[1mLinking C shared library libservo_message__rosidl_typesupport_introspection_c.so[0m
+[1.644s] [ 41%] Built target servo_message__rosidl_typesupport_introspection_c
+[1.657s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.719s] [ 48%] [32m[1mLinking CXX shared library libservo_message__rosidl_typesupport_cpp.so[0m
+[1.781s] [ 48%] Built target servo_message__rosidl_typesupport_cpp
+[1.805s] [ 51%] [32m[1mLinking CXX shared library libservo_message__rosidl_typesupport_introspection_cpp.so[0m
+[1.855s] [ 51%] Built target servo_message__rosidl_typesupport_introspection_cpp
+[1.876s] [ 54%] [32m[1mLinking CXX shared library libservo_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.887s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_c[0m
+[1.898s] [ 58%] [32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_message/msg/servo_message__type_support.cpp.o[0m
+[1.938s] [ 61%] [32m[1mLinking CXX shared library libservo_message__rosidl_typesupport_c.so[0m
+[1.987s] [ 61%] Built target servo_message__rosidl_typesupport_c
+[2.008s] [ 61%] Built target servo_message__rosidl_typesupport_fastrtps_cpp
+[2.021s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.235s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_fastrtps_c[0m
+[2.255s] [ 67%] [32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_message/msg/detail/servo_message__type_support_c.cpp.o[0m
+[2.568s] [ 70%] [32m[1mLinking CXX shared library libservo_message__rosidl_typesupport_fastrtps_c.so[0m
+[2.704s] [ 70%] Built target servo_message__rosidl_typesupport_fastrtps_c
+[2.728s] [ 70%] Built target servo_message
+[2.757s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.088s] [ 74%] Built target servo_message__py
+[3.105s] [35m[1mScanning dependencies of target servo_message__python[0m
+[3.122s] [ 77%] [32mBuilding C object CMakeFiles/servo_message__python.dir/rosidl_generator_py/servo_message/msg/_servo_message_s.c.o[0m
+[3.218s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/servo_message/libservo_message__python.so[0m
+[3.268s] [ 80%] Built target servo_message__python
+[3.280s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_introspection_c__pyext[0m
+[3.285s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.285s] [35m[1mScanning dependencies of target servo_message__rosidl_typesupport_c__pyext[0m
+[3.303s] [ 83%] [32mBuilding C object CMakeFiles/servo_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/servo_message/_servo_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.303s] [ 90%] [32mBuilding C object CMakeFiles/servo_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/servo_message/_servo_message_s.ep.rosidl_typesupport_c.c.o[0m
+[3.303s] [ 90%] [32mBuilding C object CMakeFiles/servo_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/servo_message/_servo_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.384s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/servo_message/servo_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.384s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/servo_message/servo_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.387s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/servo_message/servo_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.421s] [100%] Built target servo_message__rosidl_typesupport_c__pyext
+[3.423s] [100%] Built target servo_message__rosidl_typesupport_introspection_c__pyext
+[3.462s] [100%] Built target servo_message__rosidl_typesupport_fastrtps_c__pyext
+[3.478s] Invoked command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message' returned '0': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message -- -j4 -l4
+[3.563s] Invoking command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message
+[3.572s] -- Install configuration: ""
+[3.572s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/ament_index/resource_index/rosidl_interfaces/servo_message
+[3.572s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message
+[3.572s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg
+[3.572s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/servo_message.h
+[3.572s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail
+[3.573s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__functions.h
+[3.573s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__type_support.h
+[3.573s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__functions.c
+[3.573s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__struct.h
+[3.573s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/rosidl_generator_c__visibility_control.h
+[3.573s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/library_path.sh
+[3.573s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/library_path.dsv
+[3.573s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_generator_c.so
+[3.574s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_generator_c.so" to ""
+[3.574s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message
+[3.574s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg
+[3.574s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.574s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail
+[3.574s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__rosidl_typesupport_fastrtps_c.h
+[3.574s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_fastrtps_c.so
+[3.574s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_fastrtps_c.so" to ""
+[3.574s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message
+[3.575s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg
+[3.575s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.575s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail
+[3.575s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__rosidl_typesupport_fastrtps_cpp.hpp
+[3.575s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/dds_fastrtps
+[3.575s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_fastrtps_cpp.so
+[3.575s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.576s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message
+[3.576s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg
+[3.576s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail
+[3.576s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__type_support.c
+[3.576s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__rosidl_typesupport_introspection_c.h
+[3.576s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.576s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_introspection_c.so
+[3.576s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_introspection_c.so" to ""
+[3.576s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_c.so
+[3.577s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_c.so" to ""
+[3.577s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message
+[3.577s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg
+[3.577s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/servo_message.hpp
+[3.577s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail
+[3.577s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__struct.hpp
+[3.577s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__traits.hpp
+[3.577s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__builder.hpp
+[3.577s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message
+[3.578s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg
+[3.578s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail
+[3.578s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__type_support.cpp
+[3.578s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__rosidl_typesupport_introspection_cpp.hpp
+[3.578s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_introspection_cpp.so
+[3.578s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_introspection_cpp.so" to ""
+[3.578s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_cpp.so
+[3.578s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_cpp.so" to ""
+[3.578s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/pythonpath.sh
+[3.579s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/pythonpath.dsv
+[3.579s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/__init__.py
+[3.606s] Compiling '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/__init__.py'...
+[3.610s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/msg
+[3.610s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/msg/__init__.py
+[3.611s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/msg/_servo_message_s.c
+[3.611s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/msg/_servo_message.py
+[3.611s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.612s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.613s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.614s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.614s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.615s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.616s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__python.so
+[3.616s] -- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__python.so" to ""
+[3.616s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/msg/ServoMessage.idl
+[3.617s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/msg/ServoMessage.msg
+[3.617s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/ament_index/resource_index/package_run_dependencies/servo_message
+[3.617s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/ament_index/resource_index/parent_prefix_path/servo_message
+[3.617s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/ament_prefix_path.sh
+[3.617s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/ament_prefix_path.dsv
+[3.617s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/path.sh
+[3.617s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/path.dsv
+[3.618s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/local_setup.bash
+[3.618s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/local_setup.sh
+[3.618s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/local_setup.zsh
+[3.618s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/local_setup.dsv
+[3.618s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.dsv
+[3.618s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/ament_index/resource_index/packages/servo_message
+[3.618s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_generator_cExport.cmake
+[3.618s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_generator_cExport-noconfig.cmake
+[3.618s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_introspection_cExport.cmake
+[3.618s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.619s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_cExport.cmake
+[3.619s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_cExport-noconfig.cmake
+[3.619s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_generator_cppExport.cmake
+[3.619s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_introspection_cppExport.cmake
+[3.619s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.619s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_cppExport.cmake
+[3.619s] -- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_cppExport-noconfig.cmake
+[3.619s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/rosidl_cmake-extras.cmake
+[3.619s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.619s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/ament_cmake_export_libraries-extras.cmake
+[3.620s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/ament_cmake_export_targets-extras.cmake
+[3.620s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.620s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.620s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.620s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_messageConfig.cmake
+[3.620s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_messageConfig-version.cmake
+[3.620s] -- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.xml
+[3.622s] Invoked command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message' returned '0': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message

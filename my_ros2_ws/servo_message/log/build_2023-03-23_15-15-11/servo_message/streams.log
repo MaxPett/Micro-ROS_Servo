@@ -1,0 +1,70 @@
+[0.015s] Invoking command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /home/max/PycharmProjects/my_ros2_ws/servo_message -DCMAKE_INSTALL_PREFIX=/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message
+[0.087s] -- The C compiler identification is GNU 9.4.0
+[0.143s] -- The CXX compiler identification is GNU 9.4.0
+[0.146s] -- Check for working C compiler: /usr/bin/cc
+[0.231s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.232s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.329s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.422s] -- Detecting CXX compiler ABI info
+[0.516s] -- Detecting CXX compiler ABI info - done
+[0.528s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.553s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.553s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.733s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.820s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.828s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.951s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.978s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.096s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.255s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.255s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.255s]   servo_message --arguments-file
+[1.255s]   /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter__arguments__servo_message.json
+[1.255s]   --output-dir
+[1.256s]   /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter/servo_message
+[1.256s]   --output-file
+[1.256s]   /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter/servo_message.idls)
+[1.256s]   returned error code 1:
+[1.256s] 
+[1.256s]   Error processing 'int32 Servo_number' of 'servo_message/ServoMessage':
+[1.256s]   ''Servo_number' is an invalid field name.  It should have the pattern
+[1.257s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[1.257s] 
+[1.257s]   Traceback (most recent call last):
+[1.257s] 
+[1.257s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.257s]       return _run_code(code, main_globals, None,
+[1.257s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.258s]       exec(code, run_globals)
+[1.258s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.258s]       sys.exit(main())
+[1.258s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.258s]       abs_idl_file = convert_to_idl(
+[1.258s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.258s]       return convert_msg_to_idl(
+[1.258s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.259s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.259s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[1.259s]       fields.append(Field(
+[1.259s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[1.259s]       raise NameError(
+[1.259s] 
+[1.259s]   NameError: 'Servo_number' is an invalid field name.  It should have the
+[1.259s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[1.259s] 
+[1.260s] Call Stack (most recent call first):
+[1.260s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.260s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[1.260s] 
+[1.260s] 
+[1.260s] -- Configuring incomplete, errors occurred!
+[1.261s] See also "/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/CMakeFiles/CMakeOutput.log".
+[1.268s] Invoked command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message' returned '1': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /home/max/PycharmProjects/my_ros2_ws/servo_message -DCMAKE_INSTALL_PREFIX=/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message

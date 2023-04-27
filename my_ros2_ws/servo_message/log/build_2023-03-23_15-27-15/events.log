@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (servo_message) JobQueued: {'identifier': 'servo_message', 'dependencies': OrderedDict()}
+[0.000877] (servo_message) JobStarted: {'identifier': 'servo_message'}
+[0.018064] (servo_message) JobProgress: {'identifier': 'servo_message', 'progress': 'cmake'}
+[0.018715] (servo_message) JobProgress: {'identifier': 'servo_message', 'progress': 'build'}
+[0.019487] (servo_message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message', '--', '-j4', '-l4'], 'cwd': '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'max'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '534139'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max/PycharmProjects/my_ros2_ws/servo_message/msg'), ('DESKTOP_SESSION', 'budgie-desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '534062'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus,guid=2c3c4d0cd0b7931fe032e1d7641c05ed'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:8451555'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cps-aio-001:@/tmp/.ICE-unix/534074,unix/cps-aio-001:/tmp/.ICE-unix/534074'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '295057ac3107460fa81ba368eec4b0e1'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Budgie:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('TILIX_ID', '04245058-35d2-46a1-861c-a57cdacb47e2'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'budgie-desktop'), ('XAUTHORITY', '/home/max/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1005/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/max'), ('AMENT_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'budgie-desktop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1005/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-budgie-desktop:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1005/bus,guid=2c3c4d0cd0b7931fe032e1d7641c05ed'), ('XDG_DATA_DIRS', '/usr/share/budgie-desktop:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.058366] (servo_message) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.088345] (servo_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.088643] (servo_message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099542] (-) TimerEvent: {}
+[0.199899] (-) TimerEvent: {}
+[0.271506] (servo_message) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.300020] (-) TimerEvent: {}
+[0.352999] (servo_message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.356959] (servo_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.360695] (servo_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400133] (-) TimerEvent: {}
+[0.491712] (servo_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500242] (-) TimerEvent: {}
+[0.541037] (servo_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.600363] (-) TimerEvent: {}
+[0.602857] (servo_message) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.693564] (servo_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700004] (servo_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700374] (-) TimerEvent: {}
+[0.723606] (servo_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.723970] (servo_message) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.749175] (servo_message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.749736] (servo_message) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.749879] (servo_message) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.767940] (servo_message) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.787749] (servo_message) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.789147] (servo_message) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_c>;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_c;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_cpp;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_typesupport_fastrtps_c;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_cpp>;/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_generator_py\n'}
+[0.789289] (servo_message) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.800490] (-) TimerEvent: {}
+[0.809843] (servo_message) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.810082] (servo_message) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.812554] (servo_message) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.818592] (servo_message) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.821422] (servo_message) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.841345] (servo_message) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.841607] (servo_message) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.844232] (servo_message) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.848702] (servo_message) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.874823] (servo_message) StdoutLine: {'line': b'-- Generating done\n'}
+[0.877667] (servo_message) StdoutLine: {'line': b'-- Build files have been written to: /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message\n'}
+[0.900623] (-) TimerEvent: {}
+[0.912738] (servo_message) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.922636] (servo_message) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.000914] (-) TimerEvent: {}
+[1.101228] (-) TimerEvent: {}
+[1.143128] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_generator_c\x1b[0m\n'}
+[1.154085] (servo_message) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/servo_message__rosidl_generator_c.dir/rosidl_generator_c/servo_message/msg/detail/servo_message__functions.c.o\x1b[0m\n'}
+[1.154355] (servo_message) StdoutLine: {'line': b'[  9%] Built target servo_message__cpp\n'}
+[1.164638] (servo_message) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.164847] (servo_message) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.170363] (servo_message) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.201348] (-) TimerEvent: {}
+[1.215338] (servo_message) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libservo_message__rosidl_generator_c.so\x1b[0m\n'}
+[1.258323] (servo_message) StdoutLine: {'line': b'[ 22%] Built target servo_message__rosidl_generator_c\n'}
+[1.272121] (servo_message) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.301455] (-) TimerEvent: {}
+[1.401884] (-) TimerEvent: {}
+[1.405854] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.417825] (servo_message) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_message/msg/servo_message__type_support.cpp.o\x1b[0m\n'}
+[1.428494] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.444981] (servo_message) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_message/msg/detail/dds_fastrtps/servo_message__type_support.cpp.o\x1b[0m\n'}
+[1.457516] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.471696] (servo_message) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_message/msg/detail/servo_message__type_support.cpp.o\x1b[0m\n'}
+[1.502150] (-) TimerEvent: {}
+[1.546951] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.560341] (servo_message) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/servo_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_message/msg/detail/servo_message__type_support.c.o\x1b[0m\n'}
+[1.602262] (-) TimerEvent: {}
+[1.608597] (servo_message) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libservo_message__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.644693] (servo_message) StdoutLine: {'line': b'[ 41%] Built target servo_message__rosidl_typesupport_introspection_c\n'}
+[1.658156] (servo_message) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.702392] (-) TimerEvent: {}
+[1.720065] (servo_message) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libservo_message__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.782048] (servo_message) StdoutLine: {'line': b'[ 48%] Built target servo_message__rosidl_typesupport_cpp\n'}
+[1.802513] (-) TimerEvent: {}
+[1.805695] (servo_message) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libservo_message__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.855250] (servo_message) StdoutLine: {'line': b'[ 51%] Built target servo_message__rosidl_typesupport_introspection_cpp\n'}
+[1.876410] (servo_message) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libservo_message__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.887768] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_c\x1b[0m\n'}
+[1.898737] (servo_message) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_message/msg/servo_message__type_support.cpp.o\x1b[0m\n'}
+[1.902671] (-) TimerEvent: {}
+[1.938692] (servo_message) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libservo_message__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.987668] (servo_message) StdoutLine: {'line': b'[ 61%] Built target servo_message__rosidl_typesupport_c\n'}
+[2.002793] (-) TimerEvent: {}
+[2.009134] (servo_message) StdoutLine: {'line': b'[ 61%] Built target servo_message__rosidl_typesupport_fastrtps_cpp\n'}
+[2.021478] (servo_message) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.102888] (-) TimerEvent: {}
+[2.203256] (-) TimerEvent: {}
+[2.235572] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.255499] (servo_message) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/servo_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_message/msg/detail/servo_message__type_support_c.cpp.o\x1b[0m\n'}
+[2.303389] (-) TimerEvent: {}
+[2.403807] (-) TimerEvent: {}
+[2.504194] (-) TimerEvent: {}
+[2.569120] (servo_message) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libservo_message__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.604350] (-) TimerEvent: {}
+[2.704624] (servo_message) StdoutLine: {'line': b'[ 70%] Built target servo_message__rosidl_typesupport_fastrtps_c\n'}
+[2.704942] (-) TimerEvent: {}
+[2.728481] (servo_message) StdoutLine: {'line': b'[ 70%] Built target servo_message\n'}
+[2.757499] (servo_message) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.805073] (-) TimerEvent: {}
+[2.905646] (-) TimerEvent: {}
+[3.005969] (-) TimerEvent: {}
+[3.089145] (servo_message) StdoutLine: {'line': b'[ 74%] Built target servo_message__py\n'}
+[3.105623] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__python\x1b[0m\n'}
+[3.106035] (-) TimerEvent: {}
+[3.122810] (servo_message) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/servo_message__python.dir/rosidl_generator_py/servo_message/msg/_servo_message_s.c.o\x1b[0m\n'}
+[3.206205] (-) TimerEvent: {}
+[3.218613] (servo_message) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/servo_message/libservo_message__python.so\x1b[0m\n'}
+[3.268371] (servo_message) StdoutLine: {'line': b'[ 80%] Built target servo_message__python\n'}
+[3.280717] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.285871] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.286136] (servo_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_message__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.303355] (servo_message) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/servo_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/servo_message/_servo_message_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.303723] (servo_message) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/servo_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/servo_message/_servo_message_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.303845] (servo_message) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/servo_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/servo_message/_servo_message_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.306316] (-) TimerEvent: {}
+[3.384269] (servo_message) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/servo_message/servo_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.384481] (servo_message) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/servo_message/servo_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.387968] (servo_message) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/servo_message/servo_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.406437] (-) TimerEvent: {}
+[3.422171] (servo_message) StdoutLine: {'line': b'[100%] Built target servo_message__rosidl_typesupport_c__pyext\n'}
+[3.423878] (servo_message) StdoutLine: {'line': b'[100%] Built target servo_message__rosidl_typesupport_introspection_c__pyext\n'}
+[3.463020] (servo_message) StdoutLine: {'line': b'[100%] Built target servo_message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.478927] (servo_message) CommandEnded: {'returncode': 0}
+[3.506599] (-) TimerEvent: {}
+[3.546962] (servo_message) JobProgress: {'identifier': 'servo_message', 'progress': 'install'}
+[3.561139] (servo_message) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message'], 'cwd': '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'max'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '534139'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max/PycharmProjects/my_ros2_ws/servo_message/msg'), ('DESKTOP_SESSION', 'budgie-desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '534062'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus,guid=2c3c4d0cd0b7931fe032e1d7641c05ed'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:8451555'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cps-aio-001:@/tmp/.ICE-unix/534074,unix/cps-aio-001:/tmp/.ICE-unix/534074'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '295057ac3107460fa81ba368eec4b0e1'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Budgie:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('TILIX_ID', '04245058-35d2-46a1-861c-a57cdacb47e2'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'budgie-desktop'), ('XAUTHORITY', '/home/max/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1005/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/max'), ('AMENT_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'budgie-desktop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1005/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-budgie-desktop:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1005/bus,guid=2c3c4d0cd0b7931fe032e1d7641c05ed'), ('XDG_DATA_DIRS', '/usr/share/budgie-desktop:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[3.572271] (servo_message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.572653] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/ament_index/resource_index/rosidl_interfaces/servo_message\n'}
+[3.572798] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message\n'}
+[3.572910] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg\n'}
+[3.573023] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/servo_message.h\n'}
+[3.573172] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail\n'}
+[3.573331] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__functions.h\n'}
+[3.573437] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__type_support.h\n'}
+[3.573559] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__functions.c\n'}
+[3.573686] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__struct.h\n'}
+[3.573795] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.573905] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/library_path.sh\n'}
+[3.574088] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/library_path.dsv\n'}
+[3.574198] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_generator_c.so\n'}
+[3.574321] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_generator_c.so" to ""\n'}
+[3.574431] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message\n'}
+[3.574539] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg\n'}
+[3.574708] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.574820] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail\n'}
+[3.574933] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__rosidl_typesupport_fastrtps_c.h\n'}
+[3.575043] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_fastrtps_c.so\n'}
+[3.575187] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.575313] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message\n'}
+[3.575420] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg\n'}
+[3.575527] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.575638] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail\n'}
+[3.575808] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.575984] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/dds_fastrtps\n'}
+[3.576126] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.576234] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.576344] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message\n'}
+[3.576472] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg\n'}
+[3.576582] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail\n'}
+[3.576692] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__type_support.c\n'}
+[3.576803] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__rosidl_typesupport_introspection_c.h\n'}
+[3.576911] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.577021] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_introspection_c.so\n'}
+[3.577132] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.577292] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_c.so\n'}
+[3.577400] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_c.so" to ""\n'}
+[3.577504] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message\n'}
+[3.577656] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg\n'}
+[3.577770] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/servo_message.hpp\n'}
+[3.577873] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail\n'}
+[3.577977] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__struct.hpp\n'}
+[3.578083] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__traits.hpp\n'}
+[3.578192] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__builder.hpp\n'}
+[3.578298] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message\n'}
+[3.578402] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg\n'}
+[3.578505] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail\n'}
+[3.578606] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__type_support.cpp\n'}
+[3.578710] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/include/servo_message/msg/detail/servo_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.578814] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_introspection_cpp.so\n'}
+[3.578917] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.579018] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_cpp.so\n'}
+[3.579123] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__rosidl_typesupport_cpp.so" to ""\n'}
+[3.579245] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/pythonpath.sh\n'}
+[3.579346] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/pythonpath.dsv\n'}
+[3.579445] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/__init__.py\n'}
+[3.606576] (servo_message) StdoutLine: {'line': b"Compiling '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/__init__.py'...\n"}
+[3.606833] (-) TimerEvent: {}
+[3.610743] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/msg\n'}
+[3.611056] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/msg/__init__.py\n'}
+[3.611830] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/msg/_servo_message_s.c\n'}
+[3.611971] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/msg/_servo_message.py\n'}
+[3.612193] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.613149] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.613778] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.614667] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.615291] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.616072] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages/servo_message/servo_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.616376] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__python.so\n'}
+[3.616892] (servo_message) StdoutLine: {'line': b'-- Set runtime path of "/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/libservo_message__python.so" to ""\n'}
+[3.617007] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/msg/ServoMessage.idl\n'}
+[3.617300] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/msg/ServoMessage.msg\n'}
+[3.617661] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/ament_index/resource_index/package_run_dependencies/servo_message\n'}
+[3.617919] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/ament_index/resource_index/parent_prefix_path/servo_message\n'}
+[3.618068] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/ament_prefix_path.sh\n'}
+[3.618210] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/ament_prefix_path.dsv\n'}
+[3.618294] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/path.sh\n'}
+[3.618343] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/environment/path.dsv\n'}
+[3.618425] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/local_setup.bash\n'}
+[3.618479] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/local_setup.sh\n'}
+[3.618561] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/local_setup.zsh\n'}
+[3.618614] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/local_setup.dsv\n'}
+[3.618703] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.dsv\n'}
+[3.618793] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/ament_index/resource_index/packages/servo_message\n'}
+[3.618874] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_generator_cExport.cmake\n'}
+[3.618952] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.619136] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.619211] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.619381] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_cExport.cmake\n'}
+[3.619446] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.619617] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_generator_cppExport.cmake\n'}
+[3.619753] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.619826] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.619989] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_cppExport.cmake\n'}
+[3.620061] (servo_message) StdoutLine: {'line': b'-- Installing: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_message__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.620148] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/rosidl_cmake-extras.cmake\n'}
+[3.620224] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.620297] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.620378] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.620432] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.620511] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.620565] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.620649] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_messageConfig.cmake\n'}
+[3.620701] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/cmake/servo_messageConfig-version.cmake\n'}
+[3.620750] (servo_message) StdoutLine: {'line': b'-- Up-to-date: /home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.xml\n'}
+[3.622570] (servo_message) CommandEnded: {'returncode': 0}
+[3.709087] (-) TimerEvent: {}
+[3.723530] (servo_message) JobEnded: {'identifier': 'servo_message', 'rc': 0}
+[3.724275] (-) EventReactorShutdown: {}

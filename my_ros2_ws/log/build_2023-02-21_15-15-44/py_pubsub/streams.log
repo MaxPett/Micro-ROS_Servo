@@ -1,0 +1,37 @@
+[0.749s] Invoking command in '/home/max/PycharmProjects/my_ros2_ws/src/py_pubsub': PYTHONPATH=/home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/prefix_override:/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build install --record /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed
+[0.954s] running egg_info
+[0.954s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.954s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.954s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.954s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.955s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.955s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.966s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.001s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.002s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.002s] running build
+[1.002s] running build_py
+[1.002s] creating /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build
+[1.003s] creating /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build/lib
+[1.003s] creating /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.003s] copying py_pubsub/__init__.py -> /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.003s] copying py_pubsub/publisher_member_function.py -> /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.003s] running install
+[1.003s] running install_lib
+[1.004s] creating /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.004s] copying /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.004s] copying /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.005s] byte-compiling /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc
+[1.006s] byte-compiling /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.006s] running install_data
+[1.007s] creating /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/share/ament_index
+[1.007s] creating /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[1.007s] creating /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.007s] copying resource/py_pubsub -> /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.007s] copying package.xml -> /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/share/py_pubsub
+[1.007s] running install_egg_info
+[1.009s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[1.010s] running install_scripts
+[1.029s] Installing talker script to /home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.029s] writing list of installed files to '/home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/install.log'
+[1.065s] Invoked command in '/home/max/PycharmProjects/my_ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/prefix_override:/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/build install --record /home/max/PycharmProjects/my_ros2_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed

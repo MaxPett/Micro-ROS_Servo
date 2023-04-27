@@ -1,0 +1,7 @@
+/home/max/microros_ws4/firmware/mcu_ws/build/microcdr/CMakeFiles/install/strip.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/microcdr/CMakeFiles/install/local.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/microcdr/CMakeFiles/install.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/microcdr/CMakeFiles/list_install_components.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/microcdr/CMakeFiles/rebuild_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/microcdr/CMakeFiles/edit_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir

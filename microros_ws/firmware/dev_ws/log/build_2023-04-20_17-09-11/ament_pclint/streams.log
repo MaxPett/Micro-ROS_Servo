@@ -1,0 +1,79 @@
+[0.646s] Invoking command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed
+[0.863s] running egg_info
+[0.865s] creating ../../../build/ament_pclint/ament_pclint.egg-info
+[0.866s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[0.866s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[0.866s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[0.867s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[0.867s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[0.868s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[0.909s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[0.910s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[0.910s] running build
+[0.910s] running build_py
+[0.910s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build
+[0.910s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib
+[0.910s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[0.910s] copying ament_pclint/main.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[0.910s] copying ament_pclint/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[0.910s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.910s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.910s] copying ament_pclint/config/gcc/co-g++.h -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.910s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.910s] copying ament_pclint/config/gcc/co-gcc.h -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.911s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.911s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.911s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.911s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.911s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.911s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[0.912s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[0.912s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[0.912s] copying ament_pclint/config/msvc/co-cl.h -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[0.912s] copying ament_pclint/config/au-misra3.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.913s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.913s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.914s] copying ament_pclint/config/c99.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.914s] copying ament_pclint/config/c++.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.914s] copying ament_pclint/config/deprecate.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.914s] copying ament_pclint/config/env-xml.lnt -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.915s] running install
+[0.916s] running install_lib
+[0.918s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[0.918s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[0.918s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[0.918s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.919s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.919s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.920s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.921s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.921s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.921s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.921s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.921s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.922s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.922s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.922s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[0.922s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[0.922s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[0.923s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[0.923s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.923s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.924s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/main.py to main.cpython-38.pyc
+[0.928s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/__init__.py to __init__.cpython-38.pyc
+[0.928s] running install_data
+[0.929s] copying package.xml -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/share/ament_pclint
+[0.929s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/share/ament_index
+[0.929s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index
+[0.930s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[0.930s] copying resource/ament_pclint -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[0.930s] running install_egg_info
+[0.932s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint-0.9.8-py3.8.egg-info
+[0.933s] running install_scripts
+[0.953s] Installing ament_pclint script to /home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/bin
+[0.954s] writing list of installed files to '/home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/install.log'
+[1.024s] Invoked command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed

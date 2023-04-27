@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from servo_message/msg/ServoMessage.msg
+// generated code does not contain a copyright notice
+
+
+module servo_message {
+  module msg {
+    struct ServoMessage {
+      int32 servo_number;
+
+      double servo_value;
+    };
+  };
+};

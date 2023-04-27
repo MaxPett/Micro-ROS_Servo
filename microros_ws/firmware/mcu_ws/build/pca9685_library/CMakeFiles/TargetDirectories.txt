@@ -1,0 +1,10 @@
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/install/strip.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/install/local.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/install.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/list_install_components.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/rebuild_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/edit_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/test.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/pca9685_library.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/pca9685_library_uninstall.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/pca9685_library/CMakeFiles/uninstall.dir

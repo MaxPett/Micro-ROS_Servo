@@ -1,0 +1,46 @@
+[0.021s] Invoking command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message': /usr/bin/cmake --build /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message -- -j4 -l4
+[0.049s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.075s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.251s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.308s] Error parsing '/home/max/PycharmProjects/my_ros2_ws/servo_message/package.xml':
+[0.406s] Traceback (most recent call last):
+[0.406s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.406s]     root = dom.parseString(data)
+[0.406s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[0.406s]     return expatbuilder.parseString(string)
+[0.406s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[0.407s]     return builder.parseString(string)
+[0.407s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[0.407s]     parser.Parse(string, True)
+[0.407s] xml.parsers.expat.ExpatError: junk after document element: line 24, column 1
+[0.407s] 
+[0.407s] During handling of the above exception, another exception occurred:
+[0.407s] 
+[0.407s] Traceback (most recent call last):
+[0.407s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[0.407s]     main()
+[0.408s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[0.408s]     raise e
+[0.408s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[0.408s]     package = parse_package_string(
+[0.408s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.408s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.408s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/max/PycharmProjects/my_ros2_ws/servo_message/package.xml':
+[0.408s] The manifest contains invalid XML:
+[0.408s] junk after document element: line 24, column 1
+[0.442s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.442s]   execute_process(/usr/bin/python3
+[0.442s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.442s]   /home/max/PycharmProjects/my_ros2_ws/servo_message/package.xml
+[0.443s]   /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/ament_cmake_core/package.cmake)
+[0.443s]   returned error code 1
+[0.443s] Call Stack (most recent call first):
+[0.443s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.443s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.443s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.443s] 
+[0.443s] 
+[0.443s] -- Configuring incomplete, errors occurred!
+[0.443s] See also "/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/CMakeFiles/CMakeOutput.log".
+[0.447s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.450s] Invoked command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message' returned '2': /usr/bin/cmake --build /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message -- -j4 -l4

@@ -1,0 +1,11 @@
+source;share/pca9685_library/hook/cmake_prefix_path.ps1
+source;share/pca9685_library/hook/cmake_prefix_path.dsv
+source;share/pca9685_library/hook/cmake_prefix_path.sh
+source;share/pca9685_library/hook/pythonpath.ps1
+source;share/pca9685_library/hook/pythonpath.dsv
+source;share/pca9685_library/hook/pythonpath.sh
+source;share/pca9685_library/local_setup.bash
+source;share/pca9685_library/local_setup.dsv
+source;share/pca9685_library/local_setup.ps1
+source;share/pca9685_library/local_setup.sh
+source;share/pca9685_library/local_setup.zsh

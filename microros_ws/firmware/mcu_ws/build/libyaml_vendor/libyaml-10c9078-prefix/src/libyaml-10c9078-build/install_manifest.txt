@@ -1,0 +1,7 @@
+/home/max/microros_ws4/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/yaml.h
+/home/max/microros_ws4/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/config.h
+/home/max/microros_ws4/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/lib/libyaml.a
+/home/max/microros_ws4/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfig.cmake
+/home/max/microros_ws4/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets.cmake
+/home/max/microros_ws4/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets-debug.cmake
+/home/max/microros_ws4/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfigVersion.cmake

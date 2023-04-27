@@ -1,0 +1,7 @@
+/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles/install/local.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles/install.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles/list_install_components.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles/rebuild_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles/edit_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles/test_interface_files_uninstall.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles/uninstall.dir

@@ -1,0 +1,40 @@
+[0.695s] Invoking command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_pep257': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed
+[0.896s] running egg_info
+[0.898s] creating ../../../build/ament_pep257/ament_pep257.egg-info
+[0.898s] writing ../../../build/ament_pep257/ament_pep257.egg-info/PKG-INFO
+[0.898s] writing dependency_links to ../../../build/ament_pep257/ament_pep257.egg-info/dependency_links.txt
+[0.898s] writing entry points to ../../../build/ament_pep257/ament_pep257.egg-info/entry_points.txt
+[0.898s] writing requirements to ../../../build/ament_pep257/ament_pep257.egg-info/requires.txt
+[0.899s] writing top-level names to ../../../build/ament_pep257/ament_pep257.egg-info/top_level.txt
+[0.900s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.932s] reading manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.933s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.933s] running build
+[0.933s] running build_py
+[0.933s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build
+[0.933s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build/lib
+[0.933s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.933s] copying ament_pep257/main.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.933s] copying ament_pep257/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.933s] copying ament_pep257/pytest_marker.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.933s] running install
+[0.934s] running install_lib
+[0.936s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[0.937s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/main.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[0.937s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[0.937s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/pytest_marker.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[0.937s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/main.py to main.cpython-38.pyc
+[0.938s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/__init__.py to __init__.cpython-38.pyc
+[0.938s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/pytest_marker.py to pytest_marker.cpython-38.pyc
+[0.938s] running install_data
+[0.940s] copying package.xml -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/share/ament_pep257
+[0.940s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/share/ament_index
+[0.940s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index
+[0.940s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[0.940s] copying resource/ament_pep257 -> /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[0.940s] running install_egg_info
+[0.940s] Copying ../../../build/ament_pep257/ament_pep257.egg-info to /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257-0.9.8-py3.8.egg-info
+[0.941s] running install_scripts
+[0.960s] Installing ament_pep257 script to /home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin
+[0.960s] writing list of installed files to '/home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/install.log'
+[1.013s] Invoked command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_pep257' returned '0': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed

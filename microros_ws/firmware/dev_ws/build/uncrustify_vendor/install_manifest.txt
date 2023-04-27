@@ -1,0 +1,15 @@
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/package_run_dependencies/uncrustify_vendor
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/parent_prefix_path/uncrustify_vendor
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.sh
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.dsv
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.sh
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.dsv
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.bash
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.sh
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.zsh
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.dsv
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/package.dsv
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/packages/uncrustify_vendor
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig.cmake
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig-version.cmake
+/home/max/microros_ws4/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/package.xml

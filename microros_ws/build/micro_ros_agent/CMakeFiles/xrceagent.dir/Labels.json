@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/CMakeFiles/xrceagent"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/CMakeFiles/xrceagent.rule"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule"
+		},
+		{
+			"file" : "/home/max/microros_ws4/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xrceagent"
+		],
+		"name" : "xrceagent"
+	}
+}

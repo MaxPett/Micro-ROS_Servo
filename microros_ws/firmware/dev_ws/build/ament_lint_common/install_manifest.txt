@@ -1,0 +1,16 @@
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_index/resource_index/package_run_dependencies/ament_lint_common
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_index/resource_index/parent_prefix_path/ament_lint_common
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/environment/ament_prefix_path.sh
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/environment/ament_prefix_path.dsv
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/environment/path.sh
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/environment/path.dsv
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/local_setup.bash
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/local_setup.sh
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/local_setup.zsh
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/local_setup.dsv
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/package.dsv
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_index/resource_index/packages/ament_lint_common
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/cmake/ament_lint_commonConfig.cmake
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/cmake/ament_lint_commonConfig-version.cmake
+/home/max/microros_ws4/firmware/dev_ws/install/ament_lint_common/share/ament_lint_common/package.xml

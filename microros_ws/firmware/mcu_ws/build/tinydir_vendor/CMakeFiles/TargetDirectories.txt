@@ -1,0 +1,10 @@
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/install/strip.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/install/local.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/install.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/list_install_components.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/rebuild_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/edit_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/test.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir_vendor_uninstall.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/uninstall.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir

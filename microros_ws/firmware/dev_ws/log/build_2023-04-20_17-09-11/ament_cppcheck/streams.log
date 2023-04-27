@@ -1,0 +1,37 @@
+[1.047s] Invoking command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_cppcheck': PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/install.log --single-version-externally-managed
+[1.234s] running egg_info
+[1.234s] creating ../../../build/ament_cppcheck/ament_cppcheck.egg-info
+[1.234s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[1.235s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[1.235s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[1.235s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[1.235s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[1.238s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.273s] reading manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.274s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.274s] running build
+[1.274s] running build_py
+[1.275s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build
+[1.275s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build/lib
+[1.275s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.275s] copying ament_cppcheck/main.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.275s] copying ament_cppcheck/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.276s] running install
+[1.276s] running install_lib
+[1.277s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[1.277s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[1.278s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[1.278s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck/main.py to main.cpython-38.pyc
+[1.281s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck/__init__.py to __init__.cpython-38.pyc
+[1.281s] running install_data
+[1.282s] copying package.xml -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/share/ament_cppcheck
+[1.283s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/share/ament_index
+[1.283s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index
+[1.283s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[1.283s] copying resource/ament_cppcheck -> /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[1.283s] running install_egg_info
+[1.284s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck-0.9.8-py3.8.egg-info
+[1.285s] running install_scripts
+[1.304s] Installing ament_cppcheck script to /home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/bin
+[1.305s] writing list of installed files to '/home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/install.log'
+[1.364s] Invoked command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_cppcheck/install.log --single-version-externally-managed

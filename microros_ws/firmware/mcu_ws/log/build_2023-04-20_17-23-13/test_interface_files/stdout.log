@@ -1,0 +1,48 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake_core: 0.9.11 (/home/max/microros_ws4/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /home/max/microros_ws4/firmware/toolchain/espressif/python_env/idf4.1_py3.8_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/max/microros_ws4/firmware/toolchain/espressif/python_env/idf4.1_py3.8_env/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files
+make[4]: Entering directory '/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files'
+/usr/bin/cmake -S/home/max/microros_ws4/firmware/mcu_ws/ros2/test_interface_files -B/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles /home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[5]: Entering directory '/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files'
+/usr/bin/cmake -E cmake_progress_start /home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files/CMakeFiles 0
+make[4]: Leaving directory '/home/max/microros_ws4/firmware/mcu_ws/build/test_interface_files'
+-- Install configuration: "Debug"
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/Arrays.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/BasicTypes.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/BoundedSequences.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/Constants.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/Defaults.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/Empty.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/MultiNested.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/Nested.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/Strings.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/UnboundedSequences.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/msg/WStrings.msg
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/srv/Arrays.srv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/srv/BasicTypes.srv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/srv/Empty.srv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/action/Fibonacci.action
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/test_interface_files
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/test_interface_files
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/environment/ament_prefix_path.sh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/environment/ament_prefix_path.dsv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/environment/path.sh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/environment/path.dsv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/local_setup.bash
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/local_setup.sh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/local_setup.zsh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/local_setup.dsv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/package.dsv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/packages/test_interface_files
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/cmake/test_interface_files-extras.cmake
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/cmake/test_interface_filesConfig.cmake
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/cmake/test_interface_filesConfig-version.cmake
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/test_interface_files/package.xml

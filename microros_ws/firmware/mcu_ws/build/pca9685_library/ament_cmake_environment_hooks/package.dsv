@@ -1,0 +1,4 @@
+source;share/pca9685_library/local_setup.bash
+source;share/pca9685_library/local_setup.dsv
+source;share/pca9685_library/local_setup.sh
+source;share/pca9685_library/local_setup.zsh

@@ -1,0 +1,10 @@
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/install/strip.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/install.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/list_install_components.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/rebuild_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/edit_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/test.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/rmw.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/install/local.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/rmw_uninstall.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rmw/CMakeFiles/uninstall.dir

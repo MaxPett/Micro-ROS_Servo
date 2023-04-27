@@ -1,0 +1,2 @@
+Invoking command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message': /usr/bin/cmake --build /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message -- -j4 -l4
+Invoked command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message' returned '2': /usr/bin/cmake --build /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message -- -j4 -l4

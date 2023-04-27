@@ -1,0 +1,9 @@
+{
+  "package_name": "trajectory_msgs",
+  "non_idl_tuples": [
+    "/home/max/microros_ws4/firmware/mcu_ws/ros2/common_interfaces/trajectory_msgs:msg/JointTrajectory.msg",
+    "/home/max/microros_ws4/firmware/mcu_ws/ros2/common_interfaces/trajectory_msgs:msg/JointTrajectoryPoint.msg",
+    "/home/max/microros_ws4/firmware/mcu_ws/ros2/common_interfaces/trajectory_msgs:msg/MultiDOFJointTrajectory.msg",
+    "/home/max/microros_ws4/firmware/mcu_ws/ros2/common_interfaces/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.msg"
+  ]
+}

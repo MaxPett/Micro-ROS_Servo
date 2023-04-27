@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000810] (servo_message) JobQueued: {'identifier': 'servo_message', 'dependencies': OrderedDict()}
+[0.000880] (servo_message) JobStarted: {'identifier': 'servo_message'}
+[0.012577] (servo_message) JobProgress: {'identifier': 'servo_message', 'progress': 'cmake'}
+[0.013243] (servo_message) JobProgress: {'identifier': 'servo_message', 'progress': 'build'}
+[0.013944] (servo_message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message', '--', '-j4', '-l4'], 'cwd': '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'max'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '534139'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max/PycharmProjects/my_ros2_ws/servo_message/msg'), ('DESKTOP_SESSION', 'budgie-desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '534062'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus,guid=2c3c4d0cd0b7931fe032e1d7641c05ed'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:8451555'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cps-aio-001:@/tmp/.ICE-unix/534074,unix/cps-aio-001:/tmp/.ICE-unix/534074'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '295057ac3107460fa81ba368eec4b0e1'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Budgie:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('TILIX_ID', '04245058-35d2-46a1-861c-a57cdacb47e2'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'budgie-desktop'), ('XAUTHORITY', '/home/max/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1005/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/max'), ('AMENT_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'budgie-desktop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1005/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-budgie-desktop:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1005/bus,guid=2c3c4d0cd0b7931fe032e1d7641c05ed'), ('XDG_DATA_DIRS', '/usr/share/budgie-desktop:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.049319] (servo_message) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.074534] (servo_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.074801] (servo_message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099734] (-) TimerEvent: {}
+[0.200085] (-) TimerEvent: {}
+[0.250038] (servo_message) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.300208] (-) TimerEvent: {}
+[0.331166] (servo_message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.332795] (servo_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.335886] (servo_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400317] (-) TimerEvent: {}
+[0.463553] (servo_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500427] (-) TimerEvent: {}
+[0.510108] (servo_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.600533] (-) TimerEvent: {}
+[0.676688] (servo_message) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.676980] (servo_message) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.677100] (servo_message) StderrLine: {'line': b'  servo_message --arguments-file\n'}
+[0.677207] (servo_message) StderrLine: {'line': b'  /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter__arguments__servo_message.json\n'}
+[0.677316] (servo_message) StderrLine: {'line': b'  --output-dir\n'}
+[0.677420] (servo_message) StderrLine: {'line': b'  /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter/servo_message\n'}
+[0.677524] (servo_message) StderrLine: {'line': b'  --output-file\n'}
+[0.677628] (servo_message) StderrLine: {'line': b'  /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/rosidl_adapter/servo_message.idls)\n'}
+[0.677733] (servo_message) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.677836] (servo_message) StderrLine: {'line': b'\n'}
+[0.677940] (servo_message) StderrLine: {'line': b"  Error processing 'float value' of 'servo_message/ServoMessage': ''float' is\n"}
+[0.678072] (servo_message) StderrLine: {'line': b"  an invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''\n"}
+[0.678206] (servo_message) StderrLine: {'line': b'\n'}
+[0.678314] (servo_message) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.678419] (servo_message) StderrLine: {'line': b'\n'}
+[0.678527] (servo_message) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.678637] (servo_message) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.678742] (servo_message) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.678850] (servo_message) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.678959] (servo_message) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.679211] (servo_message) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.679350] (servo_message) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.679484] (servo_message) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.679613] (servo_message) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.679743] (servo_message) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.679871] (servo_message) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.680000] (servo_message) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.680129] (servo_message) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[0.680256] (servo_message) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[0.680384] (servo_message) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[0.680512] (servo_message) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[0.680639] (servo_message) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[0.680767] (servo_message) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.680894] (servo_message) StderrLine: {'line': b'\n'}
+[0.681021] (servo_message) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message\n"}
+[0.681150] (servo_message) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.681279] (servo_message) StderrLine: {'line': b'\n'}
+[0.681406] (servo_message) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.681534] (servo_message) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.681664] (servo_message) StderrLine: {'line': b'  CMakeLists.txt:37 (rosidl_generate_interfaces)\n'}
+[0.681794] (servo_message) StderrLine: {'line': b'\n'}
+[0.681923] (servo_message) StderrLine: {'line': b'\n'}
+[0.682069] (servo_message) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.682219] (servo_message) StdoutLine: {'line': b'See also "/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message/CMakeFiles/CMakeOutput.log".\n'}
+[0.687594] (servo_message) StderrLine: {'line': b'make: *** [Makefile:748: cmake_check_build_system] Error 1\n'}
+[0.690866] (servo_message) CommandEnded: {'returncode': 2}
+[0.700753] (-) TimerEvent: {}
+[0.780916] (servo_message) JobEnded: {'identifier': 'servo_message', 'rc': 2}
+[0.791888] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[0.748s] Invoking command in '/home/max/microros_ws4/firmware/dev_ws/ros2/ament_cmake_ros/domain_coordinator': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/build install --record /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/install.log --single-version-externally-managed
+[0.941s] running egg_info
+[0.941s] creating ../../../build/domain_coordinator/domain_coordinator.egg-info
+[0.941s] writing ../../../build/domain_coordinator/domain_coordinator.egg-info/PKG-INFO
+[0.942s] writing dependency_links to ../../../build/domain_coordinator/domain_coordinator.egg-info/dependency_links.txt
+[0.942s] writing requirements to ../../../build/domain_coordinator/domain_coordinator.egg-info/requires.txt
+[0.942s] writing top-level names to ../../../build/domain_coordinator/domain_coordinator.egg-info/top_level.txt
+[0.944s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[0.976s] reading manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[0.976s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[0.976s] running build
+[0.976s] running build_py
+[0.976s] creating /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/build
+[0.977s] creating /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/build/lib
+[0.977s] creating /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[0.977s] copying domain_coordinator/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[0.977s] running install
+[0.978s] running install_lib
+[0.979s] creating /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/lib/python3.8/site-packages/domain_coordinator
+[0.979s] copying /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/lib/python3.8/site-packages/domain_coordinator
+[0.979s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/lib/python3.8/site-packages/domain_coordinator/__init__.py to __init__.cpython-38.pyc
+[0.980s] running install_data
+[0.981s] copying package.xml -> /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/share/domain_coordinator
+[0.981s] creating /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/share/ament_index
+[0.981s] creating /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index
+[0.981s] creating /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index/packages
+[0.982s] copying resource/domain_coordinator -> /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index/packages
+[0.982s] running install_egg_info
+[0.983s] Copying ../../../build/domain_coordinator/domain_coordinator.egg-info to /home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/lib/python3.8/site-packages/domain_coordinator-0.9.2-py3.8.egg-info
+[0.983s] running install_scripts
+[1.000s] writing list of installed files to '/home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/install.log'
+[1.074s] Invoked command in '/home/max/microros_ws4/firmware/dev_ws/ros2/ament_cmake_ros/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/domain_coordinator/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/build install --record /home/max/microros_ws4/firmware/dev_ws/build/domain_coordinator/install.log --single-version-externally-managed

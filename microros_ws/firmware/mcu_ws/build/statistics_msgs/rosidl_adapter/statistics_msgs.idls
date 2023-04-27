@@ -1,0 +1,3 @@
+/home/max/microros_ws4/firmware/mcu_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/MetricsMessage.idl
+/home/max/microros_ws4/firmware/mcu_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/StatisticDataPoint.idl
+/home/max/microros_ws4/firmware/mcu_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/StatisticDataType.idl

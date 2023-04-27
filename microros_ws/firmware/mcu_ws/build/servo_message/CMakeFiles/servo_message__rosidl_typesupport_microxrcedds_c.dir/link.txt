@@ -1,0 +1,2 @@
+/home/max/microros_ws4/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libservo_message__rosidl_typesupport_microxrcedds_c.a  CMakeFiles/servo_message__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/servo_message/msg/detail/microxrcedds/servo_message__type_support_c.c.obj
+/home/max/microros_ws4/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libservo_message__rosidl_typesupport_microxrcedds_c.a

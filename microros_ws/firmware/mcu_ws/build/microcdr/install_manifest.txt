@@ -1,0 +1,8 @@
+/home/max/microros_ws4/firmware/mcu_ws/install/lib/libmicrocdr.a
+/home/max/microros_ws4/firmware/mcu_ws/install/include/ucdr/visibility.h
+/home/max/microros_ws4/firmware/mcu_ws/install/include/ucdr/microcdr.h
+/home/max/microros_ws4/firmware/mcu_ws/install/include/ucdr/config.h
+/home/max/microros_ws4/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+/home/max/microros_ws4/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-debug.cmake
+/home/max/microros_ws4/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+/home/max/microros_ws4/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake

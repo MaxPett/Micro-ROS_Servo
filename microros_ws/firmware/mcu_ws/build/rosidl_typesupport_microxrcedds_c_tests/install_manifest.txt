@@ -1,0 +1,15 @@
+/home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c_tests
+/home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c_tests
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.sh
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.dsv
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.sh
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.dsv
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.bash
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.sh
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.zsh
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.dsv
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/package.dsv
+/home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c_tests
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig.cmake
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig-version.cmake
+/home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/package.xml

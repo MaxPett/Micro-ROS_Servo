@@ -1,0 +1,19 @@
+[0.802s] Invoking command in '/home/max/microros_ws4/firmware/mcu_ws/uros/tracetools/tracetools_read': PYTHONPATH=/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_read/prefix_override:/home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_read/build install --record /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_read/install.log --install-scripts $base/lib/tracetools_read --single-version-externally-managed
+[1.024s] running egg_info
+[1.025s] writing ../../../build/tracetools_read/tracetools_read.egg-info/PKG-INFO
+[1.025s] writing dependency_links to ../../../build/tracetools_read/tracetools_read.egg-info/dependency_links.txt
+[1.025s] writing requirements to ../../../build/tracetools_read/tracetools_read.egg-info/requires.txt
+[1.025s] writing top-level names to ../../../build/tracetools_read/tracetools_read.egg-info/top_level.txt
+[1.062s] reading manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[1.063s] writing manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[1.063s] running build
+[1.064s] running build_py
+[1.064s] running install
+[1.065s] running install_lib
+[1.066s] running install_data
+[1.067s] running install_egg_info
+[1.069s] removing '/home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_read-1.0.2-py3.8.egg-info' (and everything under it)
+[1.069s] Copying ../../../build/tracetools_read/tracetools_read.egg-info to /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_read-1.0.2-py3.8.egg-info
+[1.070s] running install_scripts
+[1.092s] writing list of installed files to '/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_read/install.log'
+[1.148s] Invoked command in '/home/max/microros_ws4/firmware/mcu_ws/uros/tracetools/tracetools_read' returned '0': PYTHONPATH=/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_read/prefix_override:/home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_read/build install --record /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_read/install.log --install-scripts $base/lib/tracetools_read --single-version-externally-managed

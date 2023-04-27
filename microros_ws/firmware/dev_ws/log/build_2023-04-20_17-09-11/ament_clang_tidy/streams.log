@@ -1,0 +1,41 @@
+[0.872s] Invoking command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed
+[1.069s] running egg_info
+[1.069s] creating ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info
+[1.071s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[1.071s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[1.071s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[1.071s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[1.071s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[1.071s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.105s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.106s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.106s] running build
+[1.106s] running build_py
+[1.106s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build
+[1.106s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib
+[1.106s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.107s] copying ament_clang_tidy/main.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.107s] copying ament_clang_tidy/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.107s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration
+[1.107s] copying ament_clang_tidy/configuration/.clang-tidy -> /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration
+[1.107s] running install
+[1.107s] running install_lib
+[1.108s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.108s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/main.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.108s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.109s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/configuration
+[1.109s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration/.clang-tidy -> /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/configuration
+[1.109s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/main.py to main.cpython-38.pyc
+[1.112s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/__init__.py to __init__.cpython-38.pyc
+[1.112s] running install_data
+[1.112s] copying package.xml -> /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/share/ament_clang_tidy
+[1.113s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/share/ament_index
+[1.113s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index
+[1.113s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[1.113s] copying resource/ament_clang_tidy -> /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[1.113s] running install_egg_info
+[1.114s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy-0.9.8-py3.8.egg-info
+[1.115s] running install_scripts
+[1.131s] Installing ament_clang_tidy script to /home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/bin
+[1.131s] writing list of installed files to '/home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/install.log'
+[1.218s] Invoked command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/bin:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed

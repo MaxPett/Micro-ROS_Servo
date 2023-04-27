@@ -1,0 +1,45 @@
+make[4]: Entering directory '/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl'
+/usr/bin/cmake -S/home/max/microros_ws4/firmware/mcu_ws/ros2/rosidl_dds/rosidl_generator_dds_idl -B/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/max/microros_ws4/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+-- Found ament_cmake: 0.9.11 (/home/max/microros_ws4/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/max/microros_ws4/firmware/toolchain/espressif/python_env/idf4.1_py3.8_env/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl
+/usr/bin/cmake -E cmake_progress_start /home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl/CMakeFiles /home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[5]: Entering directory '/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl'
+/usr/bin/cmake -E cmake_progress_start /home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl/CMakeFiles 0
+make[4]: Leaving directory '/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_generator_dds_idl'
+-- Install configuration: "Debug"
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/environment/pythonpath.sh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/environment/pythonpath.dsv
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/rosidl_generator_dds_idl
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/rosidl_generator_dds_idl/__init__.py
+Listing '/home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/rosidl_generator_dds_idl'...
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_dds_idl
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_dds_idl
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/environment/ament_prefix_path.sh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/environment/path.sh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/environment/path.dsv
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/local_setup.bash
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/local_setup.sh
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/local_setup.zsh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/local_setup.dsv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/package.dsv
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_generator_dds_idl
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/cmake/rosidl_generator_dds_idl-extras.cmake
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/cmake/rosidl_generator_dds_idlConfig.cmake
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/cmake/rosidl_generator_dds_idlConfig-version.cmake
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/package.xml
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/cmake
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/cmake/rosidl_generate_dds_interfaces.cmake
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/resource
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/resource/action.idl.em
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/resource/idl.idl.em
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/resource/srv.idl.em
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/rosidl_generator_dds_idl/resource/msg.idl.em

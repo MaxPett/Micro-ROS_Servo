@@ -1,0 +1,47 @@
+[0.673s] Invoking command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed
+[0.872s] running egg_info
+[0.872s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[0.873s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.873s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.873s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.873s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.873s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.876s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.911s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.912s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.912s] running build
+[0.912s] running build_py
+[0.912s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build
+[0.912s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib
+[0.913s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.913s] copying ament_flake8/main.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.914s] copying ament_flake8/legacy.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.914s] copying ament_flake8/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.914s] copying ament_flake8/pytest_marker.py -> /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.914s] creating /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.914s] copying ament_flake8/configuration/ament_flake8.ini -> /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.914s] running install
+[0.915s] running install_lib
+[0.920s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/legacy.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.920s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[0.920s] copying /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[0.920s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/main.py to main.cpython-38.pyc
+[0.922s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/legacy.py to legacy.cpython-38.pyc
+[0.922s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/__init__.py to __init__.cpython-38.pyc
+[0.922s] byte-compiling /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-38.pyc
+[0.922s] running install_data
+[0.922s] copying package.xml -> /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/share/ament_flake8
+[0.923s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/share/ament_index
+[0.923s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index
+[0.923s] creating /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[0.923s] copying resource/ament_flake8 -> /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[0.923s] running install_egg_info
+[0.925s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8-0.9.8-py3.8.egg-info
+[0.926s] running install_scripts
+[0.942s] Installing ament_flake8 script to /home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/bin
+[0.942s] writing list of installed files to '/home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/install.log'
+[1.016s] Invoked command in '/home/max/microros_ws4/firmware/dev_ws/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/dev_ws/install/ament_lint PYTHONPATH=/home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/prefix_override:/home/max/microros_ws4/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/build install --record /home/max/microros_ws4/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed

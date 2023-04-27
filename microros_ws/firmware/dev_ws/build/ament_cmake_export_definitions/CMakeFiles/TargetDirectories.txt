@@ -1,0 +1,7 @@
+/home/max/microros_ws4/firmware/dev_ws/build/ament_cmake_export_definitions/CMakeFiles/install/local.dir
+/home/max/microros_ws4/firmware/dev_ws/build/ament_cmake_export_definitions/CMakeFiles/edit_cache.dir
+/home/max/microros_ws4/firmware/dev_ws/build/ament_cmake_export_definitions/CMakeFiles/install.dir
+/home/max/microros_ws4/firmware/dev_ws/build/ament_cmake_export_definitions/CMakeFiles/list_install_components.dir
+/home/max/microros_ws4/firmware/dev_ws/build/ament_cmake_export_definitions/CMakeFiles/rebuild_cache.dir
+/home/max/microros_ws4/firmware/dev_ws/build/ament_cmake_export_definitions/CMakeFiles/ament_cmake_export_definitions_uninstall.dir
+/home/max/microros_ws4/firmware/dev_ws/build/ament_cmake_export_definitions/CMakeFiles/uninstall.dir

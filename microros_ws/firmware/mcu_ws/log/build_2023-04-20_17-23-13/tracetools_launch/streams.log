@@ -1,0 +1,42 @@
+[0.770s] Invoking command in '/home/max/microros_ws4/firmware/mcu_ws/uros/tracetools/tracetools_launch': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/microros_ws4/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/prefix_override:/home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build install --record /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/install.log --install-scripts $base/lib/tracetools_launch --single-version-externally-managed
+[0.975s] running egg_info
+[0.976s] creating ../../../build/tracetools_launch/tracetools_launch.egg-info
+[0.976s] writing ../../../build/tracetools_launch/tracetools_launch.egg-info/PKG-INFO
+[0.976s] writing dependency_links to ../../../build/tracetools_launch/tracetools_launch.egg-info/dependency_links.txt
+[0.977s] writing requirements to ../../../build/tracetools_launch/tracetools_launch.egg-info/requires.txt
+[0.977s] writing top-level names to ../../../build/tracetools_launch/tracetools_launch.egg-info/top_level.txt
+[0.979s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[1.013s] reading manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[1.014s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[1.014s] running build
+[1.014s] running build_py
+[1.015s] creating /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build
+[1.015s] creating /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib
+[1.015s] creating /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[1.015s] copying tracetools_launch/action.py -> /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[1.016s] copying tracetools_launch/__init__.py -> /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[1.016s] creating /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[1.017s] copying tracetools_launch/actions/__init__.py -> /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[1.017s] copying tracetools_launch/actions/ld_preload.py -> /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[1.017s] running install
+[1.018s] running install_lib
+[1.019s] creating /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[1.019s] copying /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/action.py -> /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[1.019s] copying /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/__init__.py -> /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[1.019s] creating /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[1.020s] copying /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/__init__.py -> /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[1.020s] copying /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/ld_preload.py -> /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[1.020s] byte-compiling /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/action.py to action.cpython-38.pyc
+[1.024s] byte-compiling /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/__init__.py to __init__.cpython-38.pyc
+[1.024s] byte-compiling /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions/__init__.py to __init__.cpython-38.pyc
+[1.024s] byte-compiling /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions/ld_preload.py to ld_preload.cpython-38.pyc
+[1.025s] running install_data
+[1.026s] copying package.xml -> /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_launch
+[1.026s] creating /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_launch/launch
+[1.026s] copying launch/example.launch.py -> /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_launch/launch
+[1.026s] copying resource/tracetools_launch -> /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.026s] running install_egg_info
+[1.029s] Copying ../../../build/tracetools_launch/tracetools_launch.egg-info to /home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch-1.0.2-py3.8.egg-info
+[1.029s] running install_scripts
+[1.052s] writing list of installed files to '/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/install.log'
+[1.115s] Invoked command in '/home/max/microros_ws4/firmware/mcu_ws/uros/tracetools/tracetools_launch' returned '0': AMENT_PREFIX_PATH=/home/max/microros_ws4/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/microros_ws4/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/prefix_override:/home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/max/microros_ws4/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/build install --record /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_launch/install.log --install-scripts $base/lib/tracetools_launch --single-version-externally-managed

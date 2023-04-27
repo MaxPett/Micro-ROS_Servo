@@ -1,0 +1,9 @@
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/install/strip.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/install/local.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/install.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/list_install_components.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/rebuild_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/edit_cache.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/test.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/rosidl_typesupport_microxrcedds_c_tests_uninstall.dir
+/home/max/microros_ws4/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles/uninstall.dir

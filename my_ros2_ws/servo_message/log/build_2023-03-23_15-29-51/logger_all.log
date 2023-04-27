@@ -1,0 +1,120 @@
+[0.273s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.273s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7e62236a90>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7e62236a90>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7e62243040>)
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.295s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/max/PycharmProjects/my_ros2_ws/servo_message'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'servo_message'
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.347s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/max/PycharmProjects/my_ros2_ws/install
+[0.349s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'servo_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'servo_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message', 'merge_install': False, 'path': '/home/max/PycharmProjects/my_ros2_ws/servo_message', 'symlink_install': False, 'test_result_base': None}
+[0.407s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/max/PycharmProjects/my_ros2_ws/servo_message' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/max/PycharmProjects/my_ros2_ws/servo_message'
+[0.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message -- -j4 -l4
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message' returned '0': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message -- -j4 -l4
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message
+[0.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_message)
+[0.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message' returned '0': CMAKE_PREFIX_PATH=/home/max/PycharmProjects/my_ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/max/PycharmProjects/my_ros2_ws/servo_message/build/servo_message
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message' for CMake module files
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message' for CMake config files
+[0.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_message', 'cmake_prefix_path')
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/cmake_prefix_path.ps1'
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/cmake_prefix_path.dsv'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/cmake_prefix_path.sh'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib'
+[0.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_message', 'ld_library_path_lib')
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/ld_library_path_lib.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/ld_library_path_lib.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/ld_library_path_lib.sh'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/bin'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/pkgconfig/servo_message.pc'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages'
+[0.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_message', 'pythonpath')
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/pythonpath.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/pythonpath.dsv'
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/pythonpath.sh'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/bin'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.ps1'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.dsv'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.sh'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.bash'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.zsh'
+[0.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/colcon-core/packages/servo_message)
+[0.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_message)
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message' for CMake module files
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message' for CMake config files
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_message', 'cmake_prefix_path')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/cmake_prefix_path.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/cmake_prefix_path.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/cmake_prefix_path.sh'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib'
+[0.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_message', 'ld_library_path_lib')
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/ld_library_path_lib.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/ld_library_path_lib.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/ld_library_path_lib.sh'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/pkgconfig/servo_message.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/lib/python3.8/site-packages'
+[0.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_message', 'pythonpath')
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/pythonpath.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/pythonpath.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/hook/pythonpath.sh'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/bin'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.ps1'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.dsv'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.sh'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.bash'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/servo_message/package.zsh'
+[0.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/PycharmProjects/my_ros2_ws/servo_message/install/servo_message/share/colcon-core/packages/servo_message)
+[0.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.938s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.938s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.938s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.948s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.951s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/local_setup.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/_local_setup_util_ps1.py'
+[0.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/setup.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/local_setup.sh'
+[0.959s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/_local_setup_util_sh.py'
+[0.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/setup.sh'
+[0.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/local_setup.bash'
+[0.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/setup.bash'
+[0.962s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/local_setup.zsh'
+[0.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/PycharmProjects/my_ros2_ws/servo_message/install/setup.zsh'

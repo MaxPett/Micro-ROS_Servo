@@ -1,0 +1,33 @@
+make[4]: Entering directory '/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test'
+/usr/bin/cmake -S/home/max/microros_ws4/firmware/mcu_ws/uros/tracetools/tracetools_test -B/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/max/microros_ws4/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+-- Found ament_cmake: 0.9.11 (/home/max/microros_ws4/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/max/microros_ws4/firmware/toolchain/espressif/python_env/idf4.1_py3.8_env/bin/python3
+-- Checking for module 'lttng-ust'
+--   No package 'lttng-ust' found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test
+/usr/bin/cmake -E cmake_progress_start /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test/CMakeFiles /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[5]: Entering directory '/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test'
+/usr/bin/cmake -E cmake_progress_start /home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test/CMakeFiles 0
+make[4]: Leaving directory '/home/max/microros_ws4/firmware/mcu_ws/build/tracetools_test'
+-- Install configuration: "Debug"
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/tracetools_test
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/tracetools_test
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/environment/ament_prefix_path.sh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/environment/path.sh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/environment/path.dsv
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/local_setup.bash
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/local_setup.sh
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/local_setup.zsh
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/local_setup.dsv
+-- Installing: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/package.dsv
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/ament_index/resource_index/packages/tracetools_test
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/cmake/tracetools_testConfig.cmake
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/cmake/tracetools_testConfig-version.cmake
+-- Up-to-date: /home/max/microros_ws4/firmware/mcu_ws/install/share/tracetools_test/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake /home/max/microros_ws4/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/max/microros_ws4/firmware/dev_ws/install/gtest_vendor
+Invoked command in '/home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /home/max/microros_ws4/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/max/microros_ws4/firmware/dev_ws/install/gtest_vendor
+Invoking command in '/home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --build /home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor -- -j4 -l4
+Invoked command in '/home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor -- -j4 -l4
+Invoking command in '/home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --install /home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor
+Invoked command in '/home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/max/microros_ws4/firmware/dev_ws/build/gtest_vendor
